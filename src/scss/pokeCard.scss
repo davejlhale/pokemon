@@ -1,0 +1,22 @@
+.poke-card {
+    display: flex;
+    width: 40vw;
+    border: 2px solid rgba(68, 68, 68, 0.7);
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px auto;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+
+    img {
+        transition: 700ms;
+        transform: scale(1);
+
+        &:hover {
+            transform: scale(1.9);
+            transition: 700ms
+        }
+    }
+}
